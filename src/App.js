@@ -18,8 +18,6 @@ function App() {
   }, [dispatch]);
   return (
     <div className="App">
-      <Header />
-
       {categories.length === 0 ? (
         <Loader
           className="loader"
@@ -31,6 +29,7 @@ function App() {
         />
       ) : (
         <>
+          <Header />
           <Hero />
           <ChuckSays />
         </>

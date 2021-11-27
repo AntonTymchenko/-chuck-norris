@@ -1,8 +1,9 @@
 .header {
   background-color: #422ed4;
 }
-.divHeader {
+.link {
   display: flex;
   justify-content: left;
   color: white;
+  text-decoration: none;
 }
