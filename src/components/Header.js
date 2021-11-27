@@ -8,11 +8,9 @@ function Header() {
   return (
     <header className={s.header}>
       <Container>
-        <div>
-          <a href="/" className={s.link}>
-            <img src={chuckInfo.icon_url} alt="chuck" />
-            <p>Chuck Norris</p>
-          </a>
+        <div className={s.divHeader}>
+          <img src={chuckInfo.icon_url} alt="chuck" />
+          <p>Chuck Norris</p>
         </div>
       </Container>
     </header>
