@@ -1,0 +1,32 @@
+.mainTitle {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+}
+.listOfCategories {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.listOfCatItem {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.button {
+  width: 170px;
+  height: 57px;
+  border-radius: 18px;
+}
+.activeItem {
+  width: 170px;
+  height: 57px;
+  border-radius: 18px;
+  background-color: blue;
+  color: white;
+}
+.button:hover {
+  background-color: blue;
+  color: white;
+}

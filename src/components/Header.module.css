@@ -1,0 +1,8 @@
+.header {
+  background-color: #422ed4;
+}
+.divHeader {
+  display: flex;
+  justify-content: left;
+  color: white;
+}
