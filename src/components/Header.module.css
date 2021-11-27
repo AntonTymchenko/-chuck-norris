@@ -1,7 +1,7 @@
 .header {
   background-color: #422ed4;
 }
-.link {
+.divHeader {
   display: flex;
   justify-content: left;
   color: white;
